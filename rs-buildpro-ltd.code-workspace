@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "name": "RS BuildPro Ltd",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.DS_Store": true
+    },
+    "search.exclude": {
+      "node_modules": true
+    }
+  }
+}
