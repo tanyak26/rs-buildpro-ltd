@@ -127,6 +127,17 @@ a {
   gap: 10px;
 }
 
+.nav-email {
+  color: rgba(251, 250, 246, 0.78);
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.nav-email:hover {
+  color: var(--lime);
+}
+
 .menu-toggle {
   display: none;
   width: 36px;
@@ -896,6 +907,10 @@ textarea {
 
   .menu-toggle {
     display: block;
+  }
+
+  .nav-email {
+    display: none;
   }
 
   .nav-links {

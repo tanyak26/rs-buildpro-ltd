@@ -29,6 +29,7 @@ const securityHeaders = {
     "object-src 'none'",
     "frame-ancestors 'self'",
     "img-src 'self' data:",
+    "frame-src https://maps.google.com",
     "style-src 'self' 'unsafe-inline'",
     "script-src 'self' 'unsafe-inline'",
     "form-action 'self'",

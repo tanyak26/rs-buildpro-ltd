@@ -38,6 +38,6 @@ if (form && status) {
       message
     ].join("\n"));
     status.textContent = "Opening your email app with the project details ready to send.";
-    window.location.href = `mailto:?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@rsbuildproltd.co.uk?subject=${subject}&body=${body}`;
   });
 }
