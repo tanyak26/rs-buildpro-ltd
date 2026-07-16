@@ -20,7 +20,7 @@ const routes = new Map([
   ["/contact.html", "contact.html"],
   ["/robots.txt", "robots.txt"],
   ["/sitemap.xml", "sitemap.xml"],
-  ["/favicon.ico", "favicon.svg"],
+  ["/favicon.ico", "favicon.ico"],
   ["/favicon.svg", "favicon.svg"]
 ]);
 
@@ -51,6 +51,7 @@ function mimeType(filePath) {
     ".css": "text/css; charset=utf-8",
     ".js": "application/javascript; charset=utf-8",
     ".png": "image/png",
+    ".ico": "image/x-icon",
     ".svg": "image/svg+xml",
     ".txt": "text/plain; charset=utf-8",
     ".xml": "application/xml; charset=utf-8"
