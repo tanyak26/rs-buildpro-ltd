@@ -19,7 +19,9 @@ const routes = new Map([
   ["/contact", "contact.html"],
   ["/contact.html", "contact.html"],
   ["/robots.txt", "robots.txt"],
-  ["/sitemap.xml", "sitemap.xml"]
+  ["/sitemap.xml", "sitemap.xml"],
+  ["/favicon.ico", "favicon.svg"],
+  ["/favicon.svg", "favicon.svg"]
 ]);
 
 const securityHeaders = {
